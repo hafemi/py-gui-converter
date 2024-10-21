@@ -9,6 +9,7 @@ import ntpath
 import os
 
 
+# function was found on stackoverflow
 class NumericStringParser(object):
     def pushFirst(self, strg, loc, toks):
         self.exprStack.append(toks[0])
